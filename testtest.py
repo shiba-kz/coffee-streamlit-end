@@ -106,7 +106,6 @@ if uploaded_file is not None:
                 keywords = flavor_class_name
             else:
                 st.warning("すみません、認識できませんでした。")
-                st.stop()
 
     except Exception as e:
         st.error(f"画像処理中にエラーが発生しました: {e}")
